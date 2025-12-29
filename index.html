@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Startpage Papa</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
+    <script src="coloredTree.js"></script>
+  </head>
+  <body>
+    <div id="widmung">
+      Von Juli für Papa
+    </div>
+    <div id="canvas-and-wind-buttons">
+      <div>
+        <button id="button-wind-von-links" class="button-kein-wind" onclick="changeWindVonLinks()"> Kein Wind von links </button>
+      </div>
+      <div id="canvas-container" onclick="generate()"></div>
+      <div>
+        <button id="button-wind-von-rechts" class="button-kein-wind" onclick="changeWindVonRechts()"> Kein Wind von rechts </button>
+      </div>
+    </div>
+    <div id="search-container">
+        <input type="text" placeholder="Suche auf Startpage..." class="search" onkeydown="search(this)"/>
+    </div>
+    <div>
+        oder
+    </div>
+    <div>
+        <a href="https://www.startpage.com">Direkt zu Startpage</a>
+    </div>
+    <!--
+        <div id="text-container">
+            
+        </div>
+    -->
+  </body>
+</html>

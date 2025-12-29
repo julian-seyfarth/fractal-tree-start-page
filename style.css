@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #152238;
+}
+
+#widmung {
+    margin-top: 20px;
+    margin-bottom: -10px;
+    font-weight: bold;
+}
+
+div {
+    margin: 10px 0;
+}
+
+canvas {
+    border: 1px solid rgb(41, 41, 41);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#canvas-container {
+    width: max-content;
+    height: max-content;
+    margin-top: 20px;
+}
+
+input {
+    text-align: center;
+    border: 1px solid #152238;
+    border-radius: 20px;
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+    color: #152238;
+}
+
+::placeholder {
+    color: #152238;
+}
+
+a {
+    display: block;
+    text-align: center;
+    border-radius: 20px;
+    width: 300px;
+    line-height: 30px;
+    background-color: #152238;
+    color: white;
+    text-decoration: none;
+}
+
+.button-wind {
+    display: block;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid #152238;
+    width: 150px;
+    line-height: 30px;
+    background-color: #152238;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button-kein-wind {
+    display: block;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid #152238;
+    width: 150px;
+    line-height: 30px;
+    background-color: white;
+    color: #152238;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#canvas-and-wind-buttons {
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
